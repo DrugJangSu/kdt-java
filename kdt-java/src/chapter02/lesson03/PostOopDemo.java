@@ -10,6 +10,9 @@ public class PostOopDemo {
 
         System.out.println(Post.getCount());
 
+
+        NoticePost noticePost = new NoticePost("t1", "t2", "t3");
+        noticePost.print();
 //        post.title = "closed";
 //        post.setTitle("closed");
 //        post.body = "no class";
