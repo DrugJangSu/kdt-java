@@ -8,6 +8,10 @@ public class NoticePost extends Post {
         this.place = place;
     }
 
+    public String getPlace() {
+        return place;
+    }
+
     @Override
     public void print() {
         System.out.println("place=" + place);
