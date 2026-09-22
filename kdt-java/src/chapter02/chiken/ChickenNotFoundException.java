@@ -8,4 +8,3 @@ public class ChickenNotFoundException extends IllegalArgumentException {
 
     }
 }
-0
