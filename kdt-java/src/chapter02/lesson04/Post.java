@@ -1,6 +1,6 @@
 package chapter02.lesson04;
 
-public class Post {
+public class Post implements Printable {
     private String title;
     private String body;
     private static int count = 0;
@@ -23,6 +23,7 @@ public class Post {
         return count;
     }
 
+    @Override
     public void print() {
         System.out.println("title=" + title);
         System.out.println("body=" + body);
