@@ -1,4 +1,4 @@
-package chapter02.chiken;
+package chapter02.chicken;
 
 public class Chicken {
     private final int id; // 치킨 고유 번호

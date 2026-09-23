@@ -1,4 +1,4 @@
-package chapter02.chiken;
+package chapter02.chicken;
 
 public class Customer {
     private final int id; // 고객 고유 번호
