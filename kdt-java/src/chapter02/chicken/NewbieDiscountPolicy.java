@@ -1,4 +1,4 @@
-package chapter02.chiken;
+package chapter02.chicken;
 
 public class NewbieDiscountPolicy implements DiscountPolicy {
     @Override

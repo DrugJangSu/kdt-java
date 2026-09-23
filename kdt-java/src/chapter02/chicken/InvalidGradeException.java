@@ -1,4 +1,4 @@
-package chapter02.chiken;
+package chapter02.chicken;
 
 public class InvalidGradeException extends IllegalArgumentException {
     public InvalidGradeException(String grade) {

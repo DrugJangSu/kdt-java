@@ -1,4 +1,4 @@
-package chapter02.chiken;
+package chapter02.chicken;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -12,11 +12,11 @@ public class ChickenRepository {
         store.put(chicken.getId(), chicken);
     }
     public Chicken findById(int id) {
-        Chicken chicken = store.get(id);
-        if (chicken == null) {
+        Chicken found = store.get(id);
+        if (found == null) {
             throw new ChickenNotFoundException(id);
         }
-        return chicken;
+        return found;
     }
     public List<Chicken> findAll() {
         return new ArrayList<>(store.values());
