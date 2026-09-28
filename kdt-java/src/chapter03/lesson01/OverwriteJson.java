@@ -37,6 +37,9 @@ public class OverwriteJson { // 클래스 이름 = 파일 이름(OverwriteJson.j
         // ===== post.json 확인 =====
         // 이전 실습에서 만든 data/post.json이 아직 있는지 확인해서 출력 (수정은 안 함) → kept=true
         System.out.println("kept=" + Files.exists(Path.of("data", "post.json")));
+
+
+
     }
 
     // Post 객체를 받아서 JSON 문자열로 만들어 돌려주는 메서드
