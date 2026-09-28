@@ -58,3 +58,6 @@ public class RollJson {
         return "{\"title\":\"" + post.getTitle() + "\",\"body\":\"" + post.getBody() + "\"}";
     }
 }
+
+// 직렬화 (Serialization) = 메모리 속 객체를 → 파일/네트워크로 보낼 수 있는 문자열(또는 바이트)로 바꾸는 것 (toJson, toArrayJson : 직렬화 메서드)
+// 역직렬화 (Deserialization) = 그 문자열을 → 다시 객체로 되돌리는 것
