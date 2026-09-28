@@ -1,0 +1,96 @@
+[
+  {
+    "id": 1,
+    "name": "홍길동",
+    "active": true,
+    "score": 95.5,
+    "tags": [
+      "개발자",
+      "블로거",
+      "한국"
+    ],
+    "address": {
+      "city": "서울",
+      "zipCode": "04524"
+    },
+    "projects": [
+      {
+        "title": "웹사이트 리뉴얼",
+        "year": 2024,
+        "skills": [
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ]
+      },
+      {
+        "title": "모바일 앱 개발",
+        "year": 2025,
+        "skills": [
+          "Flutter",
+          "Dart"
+        ]
+      }
+    ],
+    "matrix": [
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        4,
+        5,
+        6
+      ]
+    ],
+    "emptyArray": []
+  },
+  {
+    "id": 2,
+    "name": "홍길동",
+    "active": true,
+    "score": 95.5,
+    "tags": [
+      "개발자",
+      "블로거",
+      "한국"
+    ],
+    "address": {
+      "city": "서울",
+      "zipCode": "04524"
+    },
+    "projects": [
+      {
+        "title": "웹사이트 리뉴얼",
+        "year": 2024,
+        "skills": [
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ]
+      },
+      {
+        "title": "모바일 앱 개발",
+        "year": 2025,
+        "skills": [
+          "Flutter",
+          "Dart"
+        ]
+      }
+    ],
+    "matrix": [
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        4,
+        5,
+        6
+      ]
+    ],
+    "emptyArray": []
+  }
+]
