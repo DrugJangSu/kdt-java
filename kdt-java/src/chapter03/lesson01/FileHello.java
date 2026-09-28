@@ -1,9 +1,9 @@
 package chapter03.lesson01;
 
-import java.io.IOException;
-import java.nio.charset.StandardCharsets;
-import java.nio.file.Files;
-import java.nio.file.Path;
+import java.io.IOException; // 파일 다루다 생기는 에러(예외) 종류 (IO는 Input Output의 약자)
+import java.nio.charset.StandardCharsets; // 글자 인코딩(UTF-8 등) 모음
+import java.nio.file.Files; // 파일 읽기/쓰기/생성 도구 모음
+import java.nio.file.Path; // 파일·폴더 경로를 표현하는 클래스
 
 public class FileHello {
     public static void main(String[] args) throws IOException {
