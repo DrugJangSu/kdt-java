@@ -1,9 +1,9 @@
-public class FrontRunner extends AbstractRaceStrategy {
+public class FrontRunner extends racing.AbstractRaceStrategy {
     public FrontRunner() {
         super("선행");
     }
 
-    @Overridess
+    @Override
     protected int run(int round) {
         if (round == 1) {
             return 40;
