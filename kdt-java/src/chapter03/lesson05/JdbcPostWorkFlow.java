@@ -6,9 +6,9 @@ public class JdbcPostWorkFlow {
 
     // DB 주소. "내 컴퓨터(localhost)의 3306번 문에 있는 MySQL의 kdt라는 DB"
     private static final String URL =
-            "jdbc:mysql://localhost:3306/kdt?sslMode=DISABLED";
+            "jdbc:mysql://localhost:3306/kdt?sslMode=REQUIRED";
     private static final String USER = "root";    // DB 아이디
-    private static final String PASS = "YOUR_DB_PASSWORD"; // DB 비밀번호
+    private static final String PASS = LocalDbConfig.password(); // DB 비밀번호
 
     // main: 프로그램을 실행하면 가장 먼저 시작되는 곳 (모양이 정해져 있으니 외워두면 됨)
     // throws SQLException: "DB 작업하다 에러가 나면 여기서 처리 안 하고 그냥 밖으로 던질게"

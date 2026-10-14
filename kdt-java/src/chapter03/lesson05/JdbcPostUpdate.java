@@ -6,9 +6,9 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 public class JdbcPostUpdate {
-    private static final String URL = "jdbc:mysql://localhost:3306/kdt?sslMode=DISABLED";
+    private static final String URL = "jdbc:mysql://localhost:3306/kdt?sslMode=REQUIRED";
     private static final String USER = "root";
-    private static final String PASS = "YOUR_DB_PASSWORD";
+    private static final String PASS = LocalDbConfig.password();
 
     public static void main(String[] args) throws SQLException {
 

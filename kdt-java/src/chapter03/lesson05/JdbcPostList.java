@@ -3,9 +3,9 @@ package chapter03.lesson05;
 import java.sql.*;
 
 public class JdbcPostList {
-    private static final String URL = "jdbc:mysql://localhost:3306/kdt?sslMode=DISABLED";
+    private static final String URL = "jdbc:mysql://localhost:3306/kdt?sslMode=REQUIRED";
     private static final String USER = "root";
-    private static final String PASS = "YOUR_DB_PASSWORD";
+    private static final String PASS = LocalDbConfig.password();
 
     public static void main(String[] args) throws SQLException {
         String sql = "SELECT id, title FROM jdbc_post ORDER BY id;";

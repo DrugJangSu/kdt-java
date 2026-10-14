@@ -1,0 +1,18 @@
+# Local secrets and machine-specific files
+**/db-local.properties
+.env
+.env.*
+!.env.example
+.idea/
+**/.idea/
+*.class
+out/
+build/
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+.DS_Store
+*.iml

@@ -11,3 +11,15 @@
 - 컨트롤러·서비스·리포지토리 구조와 개인 과제
 
 소스 코드는 `kdt-java/src`에 있으며, 개인 과제는 `chapter02/personalAssignment`에 모아두었습니다.
+
+## JDBC 실습 설정
+
+`kdt-java/db-example.properties`를 같은 폴더의 `db-local.properties`로 복사하고
+자신의 DB 비밀번호를 입력합니다. 기존 로컬 파일이 있으면 그대로 사용합니다.
+`DB_PASSWORD` 환경변수를 지정하면 해당 값이 우선합니다.
+실행 작업 폴더는 저장소 루트 또는 내부 `kdt-java` 폴더로 지정합니다.
+실제 비밀번호 파일은 Git에서 제외되며 소스 코드에 비밀번호를 넣지 않습니다.
+
+커밋·푸시 시 비밀정보 자동 검사가 실행됩니다. 다른 곳에 clone했다면 Python 3와
+Gitleaks 8.30.1 이상을 설치하고 `sh scripts/install-hooks.sh`를 한 번 실행하세요.
+비밀정보가 탐지되거나 검사를 실행할 수 없으면 커밋·푸시가 중단됩니다.
