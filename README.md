@@ -10,7 +10,6 @@
 - 파일 입출력, JSON, JDBC를 활용한 MySQL 연동
 - 컨트롤러·서비스·리포지토리 구조와 개인 과제
 
-소스 코드는 `kdt-java/src`에 있으며, 개인 과제는 `chapter02/personalAssignment`에 모아두었습니다.
 
 ## JDBC 실습 설정
 
